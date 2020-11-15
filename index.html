@@ -3,24 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frogger</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style1.css" />
+    <title>Frog Jump</title>
   </head>
   <body>
-    <audio src="gametheme.mp3" id="bgm"></audio>
-    <audio src="jump.wav" id="jumpSound"></audio>
-    <div class="wrapper">
-      <canvas id="canvas1"></canvas>
-      <canvas id="canvas2"></canvas>
-      <canvas id="canvas3"></canvas>
-      <canvas id="canvas4"></canvas>
-      <canvas id="canvas5"></canvas>
+    <!-- <img src="frogBG.jpg" alt="frogBG" /> -->
+    <div id="container">
+      <div id="header">Frog Jump</div>
+      <div id="main">
+        Oh no!!! <br />
+        The Frog has lost, take him back with his family.
+      </div>
+      <div class="play">
+        <div id="meme">
+          <img src="./image/frogCry.jpg" alt="meme" width="100px" />
+        </div>
+        <div>
+          <a class="button" href="index1.html">Play Now</a>
+        </div>
+      </div>
     </div>
-    <script src="setup.js"></script>
-    <script src="frogger.js"></script>
-    <script src="particles.js"></script>
-    <!-- <script src="ripples.js"></script> -->
-    <script src="obstacles.js"></script>
-    <script src="utilities.js"></script>
   </body>
 </html>

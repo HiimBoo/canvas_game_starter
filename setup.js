@@ -29,7 +29,7 @@ let keys = [];
 let score = 0;
 let collisionsCount = 0;
 let frame = 0;
-let gameSpeed = 0.7;
+let gameSpeed = 1;
 let safe = false;
 
 const particlesArray = [];

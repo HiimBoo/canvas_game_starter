@@ -57,7 +57,7 @@ class Obstacle {
       }
     } else {
       this.frameX = 1;
-      if (this.x < 0 - this.width + this.width) {
+      if (this.x < 0 - this.width) {
         this.x = canvas.width + this.width;
         this.carType = Math.floor(Math.random() * numberOfCars);
       }

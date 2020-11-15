@@ -1,0 +1,64 @@
+#container {
+  position: relative;
+  border: 2px solid rgba(27, 192, 49, 0.609);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  transform: translate(-50%, -50%);
+  background: rgba(27, 192, 49, 1);
+}
+
+body {
+  background-image: url(frogBG.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#header {
+  font-family: Roboto, sans-serif;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: rgb(0, 77, 10);
+}
+
+#main {
+  font-family: Roboto, sans-serif;
+  font-size: 25px;
+  padding: 30px;
+  color: rgb(209, 228, 203);
+}
+
+.play {
+  margin-top: 0;
+  margin-left: 175px;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  background-color: #e67e22;
+  padding: 15px 30px;
+  border-radius: 20px;
+  margin: 0 5px;
+  width: 190px;
+  display: inline-block;
+  text-align: center;
+  transition: all 1.5s;
+}
+
+.button:hover,
+.buttton:active {
+  background-color: #d60303;
+}
+
+img {
+  color: rgba(27, 192, 49, 1);
+}
+
+#meme {
+  margin-left: 80px;
+}
